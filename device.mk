@@ -70,6 +70,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0 \
     libhardware
 
+# Google Camera Go
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
