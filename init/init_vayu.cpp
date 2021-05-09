@@ -104,6 +104,6 @@ void vendor_load_properties() {
     if (mod_device != "") {
         property_override("ro.product.mod_device", mod_device.c_str());
     }
-    property_override("ro.config.media_vol_steps", 7);
-    property_override("ro.config.vc_call_vol_steps", 5);
+    property_override("ro.config.media_vol_steps", "7");
+    property_override("ro.config.vc_call_vol_steps", "5");
 }
