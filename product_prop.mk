@@ -25,3 +25,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.dbg.wfc_avail_ovr=1 \
 	persist.vendor.radio.enable_temp_dds=true \
 	persist.vendor.radio.report_codec=1
+
+# WFD
+PRODUCT_PROPERTY_OVERRIDES += \
+        debug.sf.latch_unsignaled=1 \
+        persist.debug.wfd.enable=1 \
+        persist.sys.wfd.virtual=0

@@ -175,6 +175,7 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libavservices_minijail \
     libavservices_minijail_32 \
+    libwfdaac_vendor \
     vendor.display.config@2.0
 
 PRODUCT_BOOT_JARS += \
