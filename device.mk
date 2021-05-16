@@ -49,9 +49,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
-# Dex
-PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
-
 # DeviceSettings
 PRODUCT_PACKAGES += \
     XiaomiParts
