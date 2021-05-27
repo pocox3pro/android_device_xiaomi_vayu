@@ -18,6 +18,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
+include device/xiaomi/vayu-kernel/BoardConfigKernel.mk
 TARGET_KERNEL_CONFIG := vendor/vayu_defconfig
 
 # Inherit from the proprietary version
