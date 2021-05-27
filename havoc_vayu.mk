@@ -11,13 +11,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
-# Inherit common DerpFest configurations
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit common HavocOS configurations
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
-# Official-ify
-DERP_BUILDTYPE := Official
+TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := derp_vayu
+PRODUCT_NAME := havoc_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := Poco X3 Pro

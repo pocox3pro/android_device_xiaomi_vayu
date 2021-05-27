@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_vayu.mk
+    $(LOCAL_DIR)/havoc_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_vayu-eng \
-    derp_vayu-userdebug \
-    derp_vayu-user
+    havoc_vayu-eng \
+    havoc_vayu-userdebug \
+    havoc_vayu-user
