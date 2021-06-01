@@ -116,6 +116,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.vayu
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.1-service.vayu
+
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.0
