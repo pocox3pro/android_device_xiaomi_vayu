@@ -274,3 +274,8 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     group nfc
     writepid /dev/cpuset/system-background/tasks
     disabled
+    
+on post-fs-data
+    # Allow system to read measured_fps
+    chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
+    chmod 0444 /sys/class/drm/sde-crtc-0/measured_fps
