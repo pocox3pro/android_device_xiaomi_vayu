@@ -7,6 +7,9 @@
 # Inherit from sm8150-common
 $(call inherit-product, device/xiaomi/sm8150-common/msmnile.mk)
 
+# Inherit MiuiCamera
+$(call inherit-product-if-exists, vendor/miuicamera/common/common-vendor.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
