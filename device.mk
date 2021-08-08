@@ -384,6 +384,10 @@ PRODUCT_COPY_FILES += \
 # Properties
 include $(LOCAL_PATH)/properties/default.mk
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # RIL
 PRODUCT_PACKAGES += \
     libjson \
